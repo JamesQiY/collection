@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>James' Collection</title>
+
+    <link rel="stylesheet" href="./output.css" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  </head>
+  <body class="w-full h-full flex flex-col items-center">
+    <div class="w-full md:w-2/5 h-full pt-4">
+      <h1 class="p-2 m-2 text-center text-lg font-semibold block">James' Collection</h1>
+      <div class="inline-block">
+        <div id="filter-buttons" class="flex px-4 py-1 ">
+          <div
+            bucket="classic"
+            class="filter-button m-2 py-2 transition-all duration-75 ease-in-out border-green-400 self-end"
+          >
+            Classic
+          </div>
+          <div
+            bucket="modern classic"
+            class="filter-button m-2 py-2 transition-all duration-75 ease-in-out border-blue-400 self-end"
+          >
+            Modern Classic
+          </div>
+          <div
+            bucket="modern"
+            class="filter-button m-2 py-2 transition-all duration-75 ease-in-out border-purple-400 self-end"
+          >
+            Modern
+          </div>
+          <div
+            bucket="hardcore"
+            class="filter-button m-2 py-2 transition-all duration-75 ease-in-out border-red-600 self-end"
+          >
+            Hardcore
+          </div>
+        </div>
+      </div>
+      <div id="data-table" class="overflow-hidden items-center m-1 block">
+        <!-- Data will be inserted here by JavaScript -->
+      </div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>

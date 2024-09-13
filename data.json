@@ -1,0 +1,398 @@
+[
+  {
+    "name": "7 Wonders",
+    "bucket": "Modern Classic",
+    "type": "Card Drafting",
+    "description": "A card game where you pick and pass around a hand of 7 cards. Gather different combos of cards and build your world wonder to get the most points within 3 ages! Quick and easy with a large group.",
+    "playercount": "3-7",
+    "time": "45 mins",
+    "difficulty": 5
+  },
+  {
+    "name": "A War of Whispers",
+    "bucket": "Modern",
+    "type": "Area Control",
+    "description": "An area control game where you and your opponents are controlling the same kingdoms from the shadows, trying to influence certain ones to be dominant. But you don't know who likes which kingdom, it could be the same or different ones. The trick is to figure out which kingdom is favoured by who before its too late!",
+    "playercount": "2-4",
+    "time": "45 mins",
+    "difficulty": 7
+  },
+  {
+    "name": "Andromeda's Edge",
+    "bucket": "Hardcore",
+    "type": "Worker Placement",
+    "description": "A large scale game where you are exploring and colonizing the edge of the galaxy. You will be building, battling, buying, and besting your opponents with technology, ships and resources!",
+    "playercount": "2-4",
+    "time": "3 hours",
+    "difficulty": 9
+  },
+  {
+    "name": "Army Chess",
+    "bucket": "Classic",
+    "type": "Abstract Strategy",
+    "description": "The chinese Stratego. You are trying to capture the flag deep in the enemy's camp. The pieces will have their individual ranks and will beat everything below them. Use your powerful units to clear away your opponent's pieces. Be careful of the mines and bombs though!",
+    "playercount": 2,
+    "time": "30 mins",
+    "difficulty": 5
+  },
+  {
+    "name": "Bang! Card Game",
+    "bucket": "Modern Classic",
+    "type": "Card Management/Deduction",
+    "description": "The Sheriff is in town and not everyone likes them. In this game, you will be undercover, either on the sheriff side or the outlaw side. Use cards to target and pick off players in this western spaghetti.",
+    "playercount": "3-8",
+    "time": "1.5 hours",
+    "difficulty": 7
+  },
+  {
+    "name": "Bang! Dice game",
+    "bucket": "Modern Classic",
+    "type": "Dice/Deduction",
+    "description": "The Sheriff is in town and not everyone likes them. In this game, you will be undercover, either on the sheriff side or the outlaw side. Roll dice to target and pick off players in this western spaghetti.",
+    "playercount": "3-8",
+    "time": "45 mins",
+    "difficulty": 4
+  },
+  {
+    "name": "Battle for Rokugan",
+    "bucket": "Modern",
+    "type": "Area Control",
+    "description": "The land Rokugan is scattered and needs to be united. You and your opponents will battle for the land with hidden armies. Out-bluff and outmaneuver your opponents and control the most land",
+    "playercount": "2-5",
+    "time": "2 hours",
+    "difficulty": 6
+  },
+  {
+    "name": "Beast",
+    "bucket": "Hardcore",
+    "type": "1vAll",
+    "description": "There is a beast roaming in the wild and hunters on the hunt. Play as the team of hunters trying to trackdown and capture the beast. Or play as the solo beast, staying hidden and getting more powerful as you consume livestock.",
+    "playercount": "2-4",
+    "time": "2.5 hours",
+    "difficulty": 9
+  },
+  {
+    "name": "Beyond the Sun",
+    "bucket": "Modern",
+    "type": "Euro Strategy",
+    "description": "The age of stars is here and you will be trying to be the next powerhouse in the system. Play as corporations and research technology in a large tech tree to gather more resources and points.",
+    "playercount": "2-4",
+    "time": "2 hours",
+    "difficulty": 7
+  },
+  {
+    "name": "Chess",
+    "bucket": "Classic",
+    "type": "Abstract Strategy",
+    "description": "a classic! also visit superhardalgebraproblems.com",
+    "playercount": "2-4",
+    "time": "2 hours",
+    "difficulty": 5
+  },
+  {
+    "name": "Chinese Chess",
+    "bucket": "Classic",
+    "type": "Abstract Strategy",
+    "description": "a chinese classic! Capture the king!",
+    "playercount": 2,
+    "time": "30 mins",
+    "difficulty": 7
+  },
+  {
+    "name": "Code names Pictures",
+    "bucket": "Modern Classic",
+    "type": "Team Puzzle",
+    "description": "Play as 2 teams trying to guess which secret agent belongs to your team. Use a single clever clue for you team to sniff out which picture hides the agents",
+    "playercount": 2,
+    "time": "30 mins",
+    "difficulty": 3
+  },
+  {
+    "name": "Cosmic Encounter",
+    "bucket": "Modern Classic",
+    "type": "Negotiation",
+    "description": "Play as an Alien race trying to expand across the galaxy. Make shift alliances and unexpected combos are always around the corner",
+    "playercount": "4-10",
+    "time": "45 mins",
+    "difficulty": 6
+  },
+  {
+    "name": "Crokinole",
+    "bucket": "Classic",
+    "type": "Dexterity",
+    "description": "Classic Canadian game where you flick disks near the center similar to curling",
+    "playercount": "3-6",
+    "time": "1.5 hours",
+    "difficulty": 3
+  },
+  {
+    "name": "Deception: Murder in HK",
+    "bucket": "Modern Classic",
+    "type": "Deduction",
+    "description": "",
+    "playercount": "2-4",
+    "time": "10 mins",
+    "difficulty": 6
+  },
+  {
+    "name": "Decrypto",
+    "bucket": "Modern Classic",
+    "type": "Team Deduction",
+    "description": "",
+    "playercount": "5-12",
+    "time": "45 mins",
+    "difficulty": 5
+  },
+  {
+    "name": "Dragoon",
+    "bucket": "Modern",
+    "type": "Area Control",
+    "description": "",
+    "playercount": "4-8",
+    "time": "45 mins",
+    "difficulty": 5
+  },
+  {
+    "name": "Dune",
+    "bucket": "Hardcore",
+    "type": "Area Control/Negotiation",
+    "description": "",
+    "playercount": "2-4",
+    "time": "1 hour",
+    "difficulty": 10
+  },
+  {
+    "name": "Dune Imperium",
+    "bucket": "Hardcore",
+    "type": "Deck Building/Worker Placement",
+    "description": "",
+    "playercount": 6,
+    "time": "3 hours",
+    "difficulty": 9
+  },
+  {
+    "name": "Dune Imperium Uprising",
+    "bucket": "Hardcore",
+    "type": "Deck Building/Worker Placement",
+    "description": "",
+    "playercount": "3-4",
+    "time": "2 hours",
+    "difficulty": 8
+  },
+  {
+    "name": "Fort",
+    "bucket": "Modern",
+    "type": "Deck Building",
+    "description": "",
+    "playercount": "3-4",
+    "time": "2 hours",
+    "difficulty": 6
+  },
+  {
+    "name": "Fractal",
+    "bucket": "Hardcore",
+    "type": "4x Strategy",
+    "description": "",
+    "playercount": "2-4",
+    "time": "1 hour",
+    "difficulty": 10
+  },
+  {
+    "name": "Heat",
+    "bucket": "Modern",
+    "type": "Racing/Deck Building",
+    "description": "",
+    "playercount": "2-4",
+    "time": "3 hours",
+    "difficulty": 5
+  },
+  {
+    "name": "Hive",
+    "bucket": "Modern Classic",
+    "type": "Abstract Strategy",
+    "description": "",
+    "playercount": "2-6",
+    "time": "45 mins",
+    "difficulty": 7
+  },
+  {
+    "name": "Jenga",
+    "bucket": "Classic",
+    "type": "Dexterity",
+    "description": "Who doesn't like falling wood towers?",
+    "playercount": 2,
+    "time": "30 mins",
+    "difficulty": 2
+  },
+  {
+    "name": "Kabuto Sumo",
+    "bucket": "Modern",
+    "type": "Dexterity",
+    "description": "",
+    "playercount": "2-10",
+    "time": "30 mins",
+    "difficulty": 3
+  },
+  {
+    "name": "Key Forge",
+    "bucket": "Modern",
+    "type": "Card Dueling",
+    "description": "",
+    "playercount": "2-4",
+    "time": "30 mins",
+    "difficulty": 7
+  },
+  {
+    "name": "Mining Colony",
+    "bucket": "Modern",
+    "type": "Puzzle",
+    "description": "",
+    "playercount": 2,
+    "time": "30 mins",
+    "difficulty": 5
+  },
+  {
+    "name": "Modern Art",
+    "bucket": "Modern Classic",
+    "type": "Bidding",
+    "description": "",
+    "playercount": "2-4",
+    "time": "45 mins",
+    "difficulty": 6
+  },
+  {
+    "name": "Monopoly",
+    "bucket": "Classic",
+    "type": "Torture",
+    "description": "OBJECT...The object of the game is to become the wealthiest player through buying, renting and selling property.EQUIPMENT...The equipment consists of a board, 2 dice, tokens 32 houses and 12 hotels. There are Chance and Community Chestcards, a Title Deed card for each property and play money.PREPARATION...Place the board on a table and put the Chance and Community Chest cards face-down on their allotted spaces on theboard. Each player chooses one token to represent him on his travels around the board.Each player is given $1500 divided as follows: 2 each of $500's, $100's and $50's; 6-$20's; 5 each of $10's, $5's and $1's.All remaining money and other equipment go to the Bank.BANKER...Select as Banker a player who will also make a good Auctioneer. If the Banker plays in the game, he must keep his personalfunds separate from those of the Bank. When more than five persons play, the Banker may elect to act only as Banker and Auctioneer.THE BANK...Besides the Bank's money, the Bank holds the Title Deed cards and houses and hotels prior to purchase and use by theplayers. The Bank pays salaries and bonuses. It sells and auctions properties and hands out their proper Title Deed cards; it sells housesand hotels to the players and loans money when required on mortgages.The Bank collects all taxes, fines, loans and interest, and the price of all properties which it sells and auctions.The Bank never goes broke. If the Bank runs out of money it may issue as much more as may be needed by merely writing on anyordinary paper.",
+    "playercount": "3-5",
+    "time": "45 mins",
+    "difficulty": 2
+  },
+  {
+    "name": "Monopoly Deal",
+    "bucket": "Modern Classic",
+    "type": "Card Management",
+    "description": "",
+    "playercount": "2-5",
+    "time": "5 hours",
+    "difficulty": 4
+  },
+  {
+    "name": "Moonrakers",
+    "bucket": "Modern",
+    "type": "Deck Building/Negotiation",
+    "description": "",
+    "playercount": "2-5",
+    "time": "30 mins",
+    "difficulty": 7
+  },
+  {
+    "name": "Oath",
+    "bucket": "Hardcore",
+    "type": "Worker Placement",
+    "description": "",
+    "playercount": "3-5",
+    "time": "1.5 hours",
+    "difficulty": 9
+  },
+  {
+    "name": "Pandemic",
+    "bucket": "Modern Classic",
+    "type": "Worker Placement",
+    "description": "",
+    "playercount": "3-5",
+    "time": "2.5 hours",
+    "difficulty": 6
+  },
+  {
+    "name": "Photosynthesis",
+    "bucket": "Modern Classic",
+    "type": "Abstract Strategy",
+    "description": "",
+    "playercount": "2-4",
+    "time": "1.5 hours",
+    "difficulty": 6
+  },
+  {
+    "name": "Pixel Tactics",
+    "bucket": "Modern",
+    "type": "Card Management/Card Dueling",
+    "description": "",
+    "playercount": "2-4",
+    "time": "1 hour",
+    "difficulty": 7
+  },
+  {
+    "name": "Root",
+    "bucket": "Hardcore",
+    "type": "Area Control",
+    "description": "",
+    "playercount": "2-4",
+    "time": "1 hour",
+    "difficulty": 9
+  },
+  {
+    "name": "Senjutsu",
+    "bucket": "Modern",
+    "type": "Dueling/Card Management",
+    "description": "",
+    "playercount": 4,
+    "time": "2.5 hours",
+    "difficulty": 7
+  },
+  {
+    "name": "Sidereal Confluence",
+    "bucket": "Modern",
+    "type": "Negotiation",
+    "description": "",
+    "playercount": "2-4",
+    "time": "1 hour",
+    "difficulty": 8
+  },
+  {
+    "name": "Splendor Duel",
+    "bucket": "Modern",
+    "type": "Dueling/Drafting",
+    "description": "",
+    "playercount": "4-8",
+    "time": "2 hours",
+    "difficulty": 7
+  },
+  {
+    "name": "Sushi Go",
+    "bucket": "Modern Classic",
+    "type": "Card Drafting",
+    "description": "",
+    "playercount": 2,
+    "time": "45 mins",
+    "difficulty": 4
+  },
+  {
+    "name": "Terraforming Mars Dice",
+    "bucket": "Modern",
+    "type": "Dice",
+    "description": "",
+    "playercount": "3-5",
+    "time": "45 mins",
+    "difficulty": 6
+  },
+  {
+    "name": "The Mind",
+    "bucket": "Modern Classic",
+    "type": "Card",
+    "description": "",
+    "playercount": "3-4",
+    "time": "1.5 hours",
+    "difficulty": 4
+  },
+  {
+    "name": "Shogi",
+    "bucket": "Classic",
+    "type": "Abstract Strategy",
+    "description": "",
+    "playercount": "3-4",
+    "time": "30 mins",
+    "difficulty": 7
+  }
+]
