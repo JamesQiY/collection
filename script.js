@@ -24,8 +24,10 @@ function render(data) {
   // add listeners
   addCellListeners(container);
   addFilterListeners(container);
+  // document.addEventListener("DOMContentLoaded", function () {
+    addCarouselSlideListener();
+  // });
 }
-
 // listener functions
 function addFilterListeners(container) {
   const buttons = document.querySelectorAll("#filter-buttons div");
@@ -87,38 +89,55 @@ function addCellListeners() {
 }
 
 function addCarouselSlideListener() {
-  document.addEventListener("DOMContentLoaded", function () {
-    const carousel = document.querySelector(".carousel-inner");
+  document.querySelectorAll(".carousel-inner").forEach((carousel) => {
     const slides = carousel.querySelectorAll("img");
     const totalSlides = slides.length;
+    // console.log(totalSlides)
     let currentSlide = 0;
     let startX = 0;
-    let endX = 0;
+    let currentTranslateX = 0;
 
-    const updateCarousel = () => {
-      carousel.style.transform = `translateX(-${currentSlide * 100}%)`;
+    const updateCarousel = (translateX) => {
+      carousel.style.transform = `translateX(${translateX}%)`;
     };
 
     // Touch start event
     carousel.addEventListener("touchstart", (e) => {
       startX = e.touches[0].clientX;
+      currentTranslateX = -currentSlide * 100;
+      carousel.style.transition = "none";
     });
 
     // Touch move event (optional if you want to detect swiping)
     carousel.addEventListener("touchmove", (e) => {
-      endX = e.touches[0].clientX;
+      const touchX = e.touches[0].clientX;
+      const diffX = touchX - startX;
+      const percentageMoved = (diffX / carousel.clientWidth) * 100;
+      updateCarousel(currentTranslateX + percentageMoved); // Move according to swipe progress
     });
 
     // Touch end event
     carousel.addEventListener("touchend", (e) => {
-      if (startX > endX + 50) {
-        currentSlide = (currentSlide + 1) % totalSlides; // Swipe left
-      } else if (startX < endX - 50) {
-        currentSlide = (currentSlide - 1 + totalSlides) % totalSlides; // Swipe right
+      const touchEndX = e.changedTouches[0].clientX;
+      const diffX = touchEndX - startX;
+
+      carousel.style.transition = "transform 0.5s ease"; // Re-enable transition after swipe
+
+      if (diffX > 50) {
+        // Swipe right (previous image)
+        currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+      } else if (diffX < -50) {
+        // Swipe left (next image)
+        currentSlide = (currentSlide + 1) % totalSlides;
       }
-      updateCarousel();
+
+      updateCarousel(-currentSlide * 100); // Snap to the closest slide
     });
   });
+  // document.addEventListener("DOMContentLoaded", function () {
+  // const carousel = document.querySelector(".carousel-inner");
+
+  // });
 }
 
 // generation functions
@@ -145,7 +164,7 @@ function generateCells(data, container) {
     );
     cell.appendChild(generateCellHeader(item));
 
-    cell.appendChild(generateCellDescription(item));
+    cell.appendChild(generateCellHidden(item));
 
     container.appendChild(cell);
   });
@@ -170,43 +189,59 @@ function generateCellHeader(item) {
 
 function generateCellImageCarousel(item) {
   const name = item.name;
-  const maxImages = 5;
+  const maxImages = 3;
   const imagePath = "./images/";
+  const container = document.createElement("div");
+  container.setAttribute("class", "carousel overflow-hidden w-full rounded-xl");
 
   const carousel = document.createElement("div");
   carousel.setAttribute(
     "class",
-    "carousel-inner flex w-full h-full transition-transform duration-500"
+    "carousel-inner flex aspect-square transition-transform duration-500 justify-around"
   );
 
   for (let i = 1; i <= maxImages; i++) {
     const img = document.createElement("img");
-    img.src = `${imagePath}${name}${i}.jpg`;
+    img.src = `${imagePath}${name}${i}.webp`;
     img.alt = `${name} ${i}`;
     img.onerror = () => {
       // Remove the image if it fails to load
-      img.remove();
+      img.onerror=null;
+      img.src= imagePath + 'placeholder.webp'
     };
-    img.className = `w-full h-full object-cover`;
+    img.loading = "lazy";
+    img.className = `w-full h-auto object-cover px-auto mx-auto `;
     carousel.appendChild(img);
   }
-
-  return carousel;
+  container.appendChild(carousel);
+  return container;
 }
 
-function generateCellDescription(item) {
+function generateCellHidden(item) {
   const container = document.createElement("div");
   container.setAttribute(
     "class",
     "description max-h-0 overflow-hidden transition-all ease-in-out duration-600"
   );
-  
-  container.innerHTML = `
-  <div>player count: ${item.playercount}</div>
-  <div>duration: ${item.time}</div>
-  <br>
-  <div>${item.description}</div>
-  `;
+
+  const playercount = document.createElement("div");
+  playercount.innerHTML = `Player Count: ${item.playercount}`;
+  playercount.className = "mt-2";
+
+  const time = document.createElement("div");
+  time.innerHTML = `Duration: ${item.time}`;
+  time.className = "mb-2";
+
+  const desc = document.createElement("div");
+  desc.innerHTML = item.description;
+  desc.className = "my-2 font-pretty";
+
+  const carousel = generateCellImageCarousel(item);
+
+  container.appendChild(carousel);
+  container.appendChild(playercount);
+  container.appendChild(time);
+  container.appendChild(desc);
   return container;
 }
 

@@ -12,7 +12,7 @@
     "name": "A War of Whispers",
     "bucket": "Modern",
     "type": "Area Control",
-    "description": "An area control game where you and your opponents are controlling the same kingdoms from the shadows, trying to influence certain ones to be dominant. But you don't know who likes which kingdom, it could be the same or different ones. The trick is to figure out which kingdom is favoured by who before its too late!",
+    "description": "An area control game where you and your opponents are controlling the same kingdoms from the shadows, trying to influence certain ones to be dominant. But you don't know who likes which kingdom, it could be the same or different ones. The trick is to figure out which kingdom is favoured by who before it's too late!",
     "playercount": "2-4",
     "time": "45 mins",
     "difficulty": 7
@@ -99,7 +99,7 @@
     "difficulty": 7
   },
   {
-    "name": "Code names Pictures",
+    "name": "Codenames Pictures",
     "bucket": "Modern Classic",
     "type": "Team Puzzle",
     "description": "Play as 2 teams trying to guess which secret agent belongs to your team. Use a single clever clue for you team to sniff out which picture hides the agents",
@@ -111,7 +111,7 @@
     "name": "Cosmic Encounter",
     "bucket": "Modern Classic",
     "type": "Negotiation",
-    "description": "Play as an Alien race trying to expand across the galaxy. Make shift alliances and unexpected combos are always around the corner",
+    "description": "Play as an Alien race trying to expand across the galaxy. Make shift alliances and unexpected combos are always around the corner.",
     "playercount": "4-10",
     "time": "45 mins",
     "difficulty": 6
@@ -129,7 +129,7 @@
     "name": "Deception: Murder in HK",
     "bucket": "Modern Classic",
     "type": "Deduction",
-    "description": "",
+    "description": "A social deduction game that involves 2 teams: the investigators and the murders.  Each player will have a set of cards for weapons and methods. Find out who is the murder with the help of the forensic scientist and the clues they give.",
     "playercount": "2-4",
     "time": "10 mins",
     "difficulty": 6
@@ -138,7 +138,7 @@
     "name": "Decrypto",
     "bucket": "Modern Classic",
     "type": "Team Deduction",
-    "description": "",
+    "description": "Play as a team of message decrypters against another team. Both sides are trying to decrypt their message but also trying to find out what the other team has!",
     "playercount": "5-12",
     "time": "45 mins",
     "difficulty": 5
@@ -147,7 +147,7 @@
     "name": "Dragoon",
     "bucket": "Modern",
     "type": "Area Control",
-    "description": "",
+    "description": "I dont even remember how to play the game. Play as a dragon going around the land to capture some stuff, fight other dragons, and destroy towns???",
     "playercount": "4-8",
     "time": "45 mins",
     "difficulty": 5
@@ -156,7 +156,7 @@
     "name": "Dune",
     "bucket": "Hardcore",
     "type": "Area Control/Negotiation",
-    "description": "",
+    "description": "Play as one of the six factions that is trying to control the planet dune. Each player will have game bending abilities that involves alliances, trading and bluffing. Theres even a card that makes people tell the truth",
     "playercount": "2-4",
     "time": "1 hour",
     "difficulty": 10
@@ -165,7 +165,7 @@
     "name": "Dune Imperium",
     "bucket": "Hardcore",
     "type": "Deck Building/Worker Placement",
-    "description": "",
+    "description": "A game that uses deck-building to add a hidden-information angle to traditional worker placement game. Play as a leader that has an unique ability and build up a deck as the game goes on to adapt to the change in game state and options",
     "playercount": 6,
     "time": "3 hours",
     "difficulty": 9
@@ -174,7 +174,7 @@
     "name": "Dune Imperium Uprising",
     "bucket": "Hardcore",
     "type": "Deck Building/Worker Placement",
-    "description": "",
+    "description": "A reimplementation of Dune Imperium that introduces more mechanics as well as streamline old features that is showing some age. The core gameplay remains the same but placed in a entirely different context",
     "playercount": "3-4",
     "time": "2 hours",
     "difficulty": 8
@@ -183,7 +183,7 @@
     "name": "Fort",
     "bucket": "Modern",
     "type": "Deck Building",
-    "description": "",
+    "description": "The playground is now an arms race for who can build their fort biggest and fastest. Play cards to collect resources and upgrade your fort. Along the way, snatch away cards from other players or gain a few extra points for the endgame",
     "playercount": "3-4",
     "time": "2 hours",
     "difficulty": 6
